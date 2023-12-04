@@ -11,7 +11,7 @@ servers = [{'url': 'http://speedtest.getwireless.net:8080/speedtest/upload.php',
             'country': 'United States', 'cc': 'US', 'sponsor': 'Getwireless.net', 
             'id': '1624', 'host': 'speedtest.getwireless.net:8080', 'd': 0.5488017180303226}]
 
-s = speedtest.Speedtest()
+s = speedtest.Speedtest(secure=True)
 # s.get_servers()
 best_server = s.get_best_server(servers)
 
