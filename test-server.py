@@ -40,7 +40,7 @@ while s_num < 1 or s_num > len(servers):
         exit()
     if user_input.lower() == "r":
         clear_screen()
-        server_choices()
+        servers = server_choices()
         continue
     
 
