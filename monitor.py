@@ -6,10 +6,15 @@ from datetime import date
 
 print("monitoring...")
 
-servers = [{'url': 'http://speedtest.getwireless.net:8080/speedtest/upload.php', 
-            'lat': '40.7914', 'lon': '-77.8586', 'name': 'State College, PA', 
-            'country': 'United States', 'cc': 'US', 'sponsor': 'Getwireless.net', 
-            'id': '1624', 'host': 'speedtest.getwireless.net:8080', 'd': 0.5488017180303226}]
+# servers = [{'url': 'http://speedtest.getwireless.net:8080/speedtest/upload.php', 
+#             'lat': '40.7914', 'lon': '-77.8586', 'name': 'State College, PA', 
+#             'country': 'United States', 'cc': 'US', 'sponsor': 'Getwireless.net', 
+#             'id': '1624', 'host': 'speedtest.getwireless.net:8080', 'd': 0.5488017180303226}]
+
+servers = [{'url': 'http://speedtest.elevatedmsp.com:8080/speedtest/upload.php', 
+            'lat': '40.2697', 'lon': '-76.8756', 'name': 'Harrisburg, PA', 
+            'country': 'United States', 'cc': 'US', 'sponsor': 'Elevated MSP', 
+            'id': '48550', 'host': 'speedtest.elevatedmsp.com:8080', 'd': 101.8194522826376}]
 
 s = speedtest.Speedtest(secure=True)
 # s.get_servers()
